@@ -1,6 +1,6 @@
-function playGame( playerInput) {
+{ const playGame = function( playerInput) {
   clearMessages();
-  function getMoveName( randomNumber) {
+  const getMoveName = function( randomNumber) {
     if( randomNumber == 1){
     return 'kamień';
   } else if( randomNumber == 2){
@@ -13,7 +13,7 @@ function playGame( playerInput) {
   }
 }     
 
-  function displayResult( argComputerMove, argPlayerMove) {
+  const displayResult = function( argComputerMove, argPlayerMove) {
    printMessage( 'Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
     printMessage('Ty wygrywasz!');
@@ -85,3 +85,4 @@ document.getElementById('play-scissors').addEventListener('click', function(){
   printMessage('Wybrałeś nożyce');
   playGame(3);
 });
+}

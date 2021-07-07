@@ -1,0 +1,41 @@
+*, *::before* *::after* {
+  box-sizing: border-box;
+}
+
+.splash {
+  background: #34495e;
+  text-align: center;
+}
+
+.page-title {
+  color: #f1c40f;
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+}
+
+.page-subtitle {
+  color: #ffff;
+  font-size: 35px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.instruction {
+  color: #ffff;
+  font-size: 25px;
+  font-family: "Rajdhani", sans-serif;
+  text-decoration: underline;
+}
+
+.instruction-points {
+  color: #ffff;
+  font-size: 18px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.buttons {
+  color: #34495e;
+  font-family: "Rajdhani", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPQTtFQUNJLHNCQUFzQjtBQ04xQjs7QURRQTtFQUNJLG1CQVBlO0VBUWYsa0JBQWtCO0FDTHRCOztBRFFBO0VBQ0ksY0FYaUI7RUFZakIsZUFBZTtFQUNmLGlDQWxCOEI7QUNhbEM7O0FEUUE7RUFDSSxZQW5CYTtFQW9CYixlQUFlO0VBQ2YsbUNBdkI4QjtBQ2tCbEM7O0FEUUE7RUFDSSxZQXpCYTtFQTBCYixlQUFlO0VBQ2YsbUNBN0I4QjtFQThCOUIsMEJBQTBCO0FDTDlCOztBRFFBO0VBQ0ksWUFoQ2E7RUFpQ2IsZUFBZTtFQUNmLG1DQXBDOEI7QUMrQmxDOztBRFFBO0VBQ0ksY0FyQ2U7RUFzQ2YsbUNBekM4QjtFQTBDOUIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQ0xyQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
